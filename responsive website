@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/fdb71352d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="imgs/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi! I'm <span>Handan</span><br>Ozkurt from Canada!</h1>
+        </div>
+    </div>
+ </div>
+<!---------ABOUT-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgs/user.png">
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About Me</h2>
+                <p>djgnvdfjnjnkvnsfnjkdsnvdfjkngkjsjktjgnsjnvjnjkfnvjkfnvjnjvng.
+                fnvjfnjkvnfnvnksdjfvjnvfjnkjdvnkjfj njfnjvjkfnkjfns.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sep 2021-Jan 2022</span><br>QA Software Tester at Edsby</li>
+                        <li><span>Jan 2022-Apr 2023</span><br>Web and Graphic Design Freelancer</li>
+                        <li><span>Aug 2022-Apr 2023</span><br>Web App Development at Etsy for small businesses</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2023</span><br>ICT sector Major from Richmond Hill High School</li>
+                        <li><span>2020-2021</span><br>Machine Learing Training from Stanford University (Online)</li>
+                        <li><span>2019-2020</span><br>Information Technology Prep at International School of Prishtina</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----services-->
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>sdjfjdnjvnfjsbvjfdghghbdhfbvjhbdfbgdf.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h3>UI/UX Design</h3>
+                <p>sdjfjdnjvnfjsbvjfdghghbdhfbvjhbdfbgdf.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h3>App Design</h3>
+                <p>sdjfjdnjvnfjsbvjfdghghbdhfbvjhbdfbgdf.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+   </div>
+ </div>
+<!---portfolio--->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app is the best social media app</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-2.png">
+                <div class="layer">
+                    <h3>Music  App</h3>
+                    <p>This app is the best social media app</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>This app is the best social media app</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>           
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i></i>ozkhandan24@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 (647)-225-1871</p>
+                <div class="social-icons">
+                    <a thref="https://www.linkedin.com/in/handan-ozkurt/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a thref="https://github.com/han-dann"><i class="fa-brands fa-github"></i></a>
+                </div>
+                    <a href="imgs/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Handan.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMcuSps4o13a4VKatgGvcQRmD59jIkxHz8Yoo5EtkocM4ftGy9zTRsS5-P-epqESx_zg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
