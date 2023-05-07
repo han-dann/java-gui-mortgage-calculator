@@ -1,8 +1,6 @@
 /**
  * Handan Ozkurt
- * 350238515
  * Jan 23, 2022
- * Final Project 
  * A Java mortgage calculator app/program; designed with the main purpose of 
  * providing the user with the accurate monthly payment amount 
  * based on the information given by the user.
