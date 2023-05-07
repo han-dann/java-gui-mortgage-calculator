@@ -1,2 +1,2 @@
-# educational
-Some great projects I'm very fond and proud of!
+# Mortgage Calculator
+A visual mortgage calculator made using JAVA GUI functionalities that is fully functional and responsive!!
