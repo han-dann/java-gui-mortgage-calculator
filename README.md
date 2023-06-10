@@ -9,6 +9,12 @@ This repository contains a fully functional and visually appealing mortgage calc
 - Clear and Reset Options: Users can easily clear the input fields or reset the calculator to its initial state, allowing for quick and convenient calculations.
 - Interactive Graphs: The calculator includes interactive graphs to visualize the mortgage payment breakdown and amortization schedule, providing a visual representation of the loan repayment process.
 
+<img width="631" alt="Screenshot 2023-06-10 at 8 24 55 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/d05e5eea-33dd-4a31-ac83-f79f38b42bb6">
+
+<img width="635" alt="Screenshot 2023-06-10 at 8 24 33 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/20c031f8-709d-4a2c-8c83-1336879bdbf1">
+
+<img width="628" alt="Screenshot 2023-06-10 at 8 25 14 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/81cbe9f4-9e88-4eed-8baf-d08c61b44b25">
+
 # Usage
 - Clone the repository to your local machine or download the source code as a ZIP file.
 - Open the project in your preferred Java IDE.
@@ -22,13 +28,6 @@ This repository contains a fully functional and visually appealing mortgage calc
 # Requirements
 - Java Development Kit (JDK) 8 or above.
 - Java IDE or any text editor of your choice.
-
-# Showcasing
-<img width="631" alt="Screenshot 2023-06-10 at 8 24 55 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/d05e5eea-33dd-4a31-ac83-f79f38b42bb6">
-
-<img width="635" alt="Screenshot 2023-06-10 at 8 24 33 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/20c031f8-709d-4a2c-8c83-1336879bdbf1">
-
-<img width="628" alt="Screenshot 2023-06-10 at 8 25 14 AM" src="https://github.com/han-dann/Mortgage-Calculator-Java-GUI/assets/98670479/81cbe9f4-9e88-4eed-8baf-d08c61b44b25">
 
 # License
 This project is licensed under the MIT License. Feel free to modify and distribute it as per the terms of the license.
